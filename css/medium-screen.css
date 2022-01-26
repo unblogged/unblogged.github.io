@@ -1,0 +1,93 @@
+@media (min-width: 550px) and (max-width: 1100px) {
+    .container {
+        grid-gap: 35px;
+        justify-content: space-between;
+    }
+
+    .blog-post {
+        grid-template-columns: 67% 28%;
+        grid-template-areas:
+            "nav nav"
+            "banner banner"
+            "content aside"
+            "footer footer";
+    }
+
+    .navigation {
+        margin: auto;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-items {
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner img {
+        height: 350px;
+        object-fit: cover;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .aside {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .jumbo {
+        margin: auto;
+        height: auto;
+        width: 99.7%;
+    }
+
+    .jumbo h1 {
+        font-size: 3.5vw;
+    }
+
+    .jumbo-img {
+        width: 45%;
+        height: 380px;
+    }
+
+    .jumbo-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 5px;
+    }
+
+    footer {
+        margin: auto;
+    }
+
+    .content {
+        margin: 0;
+        flex-flow: row wrap;
+        row-gap: 10px;
+        justify-content: space-between;
+    }
+
+    .post-card {
+        width: 47%;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .read-more {
+        height: auto;
+        width: 50%;
+    }
+}
