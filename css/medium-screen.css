@@ -50,8 +50,17 @@
         width: 99.7%;
     }
 
+    .jumbo-text {
+        row-gap: 3vw;
+    }
+
     .jumbo h1 {
         font-size: 3.5vw;
+        margin: auto;
+    }
+
+    .jumbo q {
+        font-size: 2vw;
     }
 
     .jumbo-img {

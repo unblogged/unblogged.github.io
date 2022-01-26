@@ -74,7 +74,7 @@ body {
 }
 
 #search-form {
-    margin: 10px;
+    margin: 0 10px 10px 10px;
     padding: 10px;
 }
 
@@ -145,8 +145,7 @@ blockquote {
     padding: 10px;
 }
 
-.about h3, .archives h3, .subs h3 {
-    font-style: italic;
+.aside h3 {
     color: #2A9D8F;
 }
 
@@ -217,8 +216,27 @@ blockquote {
     border-radius: 5px;
 }
 
+.jumbo-text {
+    width: 48%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 20px; */
+    justify-content: space-around;
+    row-gap: 2vw;
+}
+
+.jumbo q {
+    /* margin-top: 20px; */
+    font-style: italic;
+    text-justify: auto;
+    width: auto;
+    margin: auto;
+    font-size: 3vw;
+    overflow-wrap: normal;
+}
+
 .jumbo h1 {
-    width: 45%;
     margin: auto;
     padding: 5px;
     overflow-wrap: break-word;
@@ -251,7 +269,7 @@ blockquote {
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 5px;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: 3px 3px 1px;
 }
