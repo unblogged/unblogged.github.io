@@ -3,6 +3,7 @@
         grid-gap: 35px;
         margin: auto;
         justify-content: space-between;
+        font-size: 1.3em;
     }
 
     .blog-post {
@@ -30,6 +31,10 @@
         column-gap: 20px;
         justify-content: space-between;
         align-items: center;
+    }
+
+    blockquote {
+        font-size: 1.2em;
     }
 
     .banner img {
