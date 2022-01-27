@@ -44,6 +44,10 @@
         border-radius: 5px;
     }
 
+    .prof-pic img {
+        border-radius: 50%;
+    }
+
     .aside {
         display: flex;
         flex-direction: column;

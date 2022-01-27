@@ -82,11 +82,6 @@ body {
     color: #fff;
 }
 
-
-/* #search-form input { */
-
-/* } */
-
 #search-form input {
     border-radius: 5px;
     border-color: #21295c;
@@ -104,21 +99,40 @@ body {
     grid-area: banner;
 }
 
+.banner img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+
 .banner span {
     font-style: italic;
     color: #E76F51;
     margin: 10px;
 }
 
-.banner a {
-    color: #21295c;
+.banner-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.banner img {
+.prof-pic {
+    margin: 10px;
+}
+
+.prof-pic img {
+    max-width: 50px;
+    max-height: 50px;
     width: 100%;
-    height: auto;
-    margin: auto;
-    border-radius: 5px;
+    border-radius: 50%;
+    border: 1px solid #8d99ae;
+}
+
+.banner-bottom a {
+    color: #21295c;
 }
 
 blockquote {
