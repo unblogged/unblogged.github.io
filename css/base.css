@@ -284,21 +284,52 @@ blockquote {
     box-shadow: 3px 3px 1px #8d99ae;
 }
 
+.post-card-header {
+    margin: 0;
+    display: grid;
+    justify-content: space-between;
+    align-items: flex-start;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 40% 60%;
+}
+
+.avatar {
+    grid-column: 1;
+    grid-row: 1/span 2;
+    margin: 0;
+}
+
+.avatar img {
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 20%;
+}
+
+.avatar figcaption {
+    padding-left: 20%;
+}
+
+.post-card h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto auto auto 10px;
+    font-size: 1.5em;
+}
+
+.post-card-header span {
+    grid-column: 2;
+    grid-row: 2;
+    margin:0 auto auto 10px;
+    font-style: italic;
+    color: #E76F51;
+}
+
 .post-card p {
     margin: 10px auto;
     text-align: justify;
     line-height: 1.5;
-}
-
-.post-card h3 {
-    margin-bottom: 0;
-}
-
-.post-card span {
-    margin: 0;
-    font-size: 0.8em;
-    font-style: italic;
-    color: #E76F51;
 }
 
 .read-more {
